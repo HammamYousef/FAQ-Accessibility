@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf) format('truetype');
+  font-weight: 400 600 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSansItalic';
+  src: url(./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf) format('truetype');
+  font-weight: 400 600 700;
+  font-style: italic;
+}
+
+@theme {
+  --color-white: hsl(0, 100%, 100%);
+  --color-purple-100: hsl(275, 100%, 97%);
+  --color-purple-600: hsl(292, 16%, 49%);
+  --color-purple-950: hsl(292, 42%, 14%);
+
+  --font-work-sans: 'WorkSans', sans-serif;
+  --font-work-sans-italic: 'WorkSansItalic', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-work-sans;
+  }
+}
+
+@utility attribution {
+  @apply text-center text-sm mt-4;
+
+  a {
+    @apply text-blue-500 hover:text-blue-700;
+  }
+}
