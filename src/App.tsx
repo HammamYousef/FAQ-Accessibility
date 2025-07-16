@@ -35,9 +35,6 @@ const App = () => {
         </a>
         . Coded by <a href="#">Hammam Yousef</a>.
       </div>
-      <div>
-        hi <div>hello</div>
-      </div>
     </>
   );
 };
