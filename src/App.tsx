@@ -1,9 +1,10 @@
 import "./App.css";
+import FAQ_Card from "./components/FAQ_Card";
 
 const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <main className="relative h-dvh flex flex-col items-center justify-center bg-purple-100 bg-[url('./assets/images/background-pattern-desktop.svg')] bg-no-repeat bg-contain">
+      <FAQ_Card />
 
       {/* FAQs
 
@@ -35,7 +36,7 @@ const App = () => {
         </a>
         . Coded by <a href="#">Hammam Yousef</a>.
       </div>
-    </>
+    </main>
   );
 };
 
