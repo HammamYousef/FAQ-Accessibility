@@ -3,7 +3,7 @@ import FAQ_Card from "./components/FAQ_Card";
 
 const App = () => {
   return (
-    <main className="relative h-dvh flex flex-col items-center justify-center bg-purple-100 bg-[url('./assets/images/background-pattern-desktop.svg')] bg-no-repeat bg-contain">
+    <main className="relative h-dvh flex flex-col items-center justify-center px-6 bg-purple-100 bg-[url('./background-pattern-mobile.svg')] bg-no-repeat bg-contain">
       <FAQ_Card />
 
       {/* FAQs
